@@ -3,7 +3,7 @@ class HomePage extends HTMLElement {
     this.innerHTML = `
       <ion-header>
         <ion-toolbar>
-          <ion-title>Blank</ion-title>
+          <ion-title>Home</ion-title>
         </ion-toolbar>
       </ion-header>
 
@@ -20,6 +20,10 @@ class HomePage extends HTMLElement {
               UI Components
             </a>
           </p>
+
+          <ion-button href="/new">
+            Go to new page
+          </ion-button>
         </div>
       </ion-content>
     `;
