@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>vanilla-ionic</title>
+  </head>
+  <body>
+    <ion-app>
+      <ion-router>
+        <ion-route url="/" component="home-page"></ion-route>
+      </ion-router>
+
+      <ion-router-outlet></ion-router-outlet>
+    </ion-app>
+
+    <!-- pages -->
+    <script type="module" src="/src/pages/HomePage.js"></script>
+
+    <!-- main -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
